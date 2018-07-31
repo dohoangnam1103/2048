@@ -20,7 +20,7 @@
           Product build by Nam Đẹp Trai
         </strong>
       </p>
-      <a @click.prevent="onRestart" class='restart-button'>New Game</a>
+      <a @click.prevent="onRestart" class='restart-button'>New Game --></a>
     </div>
   </section>
 
@@ -170,7 +170,7 @@ export default {
     cursor: pointer;
 
     &.restart-button {
-      float: right;
+      // float: right;
       display: inline-block;
       height: 40px;
       padding: 0 20px;
